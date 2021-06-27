@@ -13,7 +13,7 @@ app.get("/", function(req, res){
 app.post("/", function(req, res){
 
 const query = req.body.location;
-const apiKey = "90200964759c9a3776694d95d143c670";
+const apiKey = "";
 const units = "imperial"
 const url = "https://api.openweathermap.org/data/2.5/weather?units=imperial&q=" + query + "&appid="+ apiKey + "&units=" + units + "";
 
